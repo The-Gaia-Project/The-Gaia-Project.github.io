@@ -1,0 +1,27 @@
+div, header, main, footer{
+    border: solid rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(80, 80, 80);
+}
+header{
+    display: flex;
+    background-color: rgb(75, 75, 75);
+}
+h1{
+    font-size: 4rem;
+}
+.big-box-1, .big-box-2{
+    display: flex;
+}
+.image-a1-1, .image-b1-1, .image-c1-1, .image-d1-1{
+    width: 100%;
+    height: auto;
+
+}
+img{
+    max-width: 100%; height: auto;
+}
