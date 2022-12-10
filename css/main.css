@@ -11,17 +11,49 @@ header{
     display: flex;
     background-color: rgb(75, 75, 75);
 }
+.icon{
+    width: 200px;
+    height: 100px;
+    margin: 1px;
+    
+}
 h1{
     font-size: 4rem;
 }
-.big-box-1, .big-box-2{
+.big-box-1, .big-box-2, .big-box-3{
     display: flex;
 }
-.image-a1-1, .image-b1-1, .image-c1-1, .image-d1-1{
+.image-a1-1, .image-b1-1, .image-c1-1, .image-d1-1, .image-a2-1, .image-b2-1, .image-c2-1, .image-d2-1, .image-a3-1, .image-b3-1, .image-c3-1, .image-d3-1{
     width: 100%;
     height: auto;
-
+}
+.image-a1-2, .image-b1-2, .image-c1-2, .image-d1-2, .image-a2-2, .image-b2-2, .image-c2-2, .image-d2-2, .image-a3-2, .image-b3-2, .image-c3-2, .image-d3-2{
+    background-color: rgb(59, 59, 59);
+    text-align: center;
 }
 img{
-    max-width: 100%; height: auto;
+    margin: 10px;
+    max-width: 50%; height: auto;
 }
+footer{
+    display: flex;
+}
+.footer-text-1, .footer-text-2{
+    width: 100%;
+    font-size: 30px;
+    background-color: black;
+}
+@media only screen and (max-width: 600px) {
+    .big-box-1, .big-box-2, .big-box-3{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .footer-text-1, .footer-text-2{
+        width: 100%;
+        font-size: 15px;
+    }
+}
+  
