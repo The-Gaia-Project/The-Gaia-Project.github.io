@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+header{
+    display: flex;
+}
+.icon{
+    height: 200px;
+}
+.header-text{
+    font-size: 40px;
+}
+.box-a1-1{
+    display: flex;
+}
+.box-a1-2{
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+}
+.image-box-1{
+    text-align: center;
+}
+.footer-text-1, .footer-text-2{
+    width: 50%;
+}
+footer{
+    display: flex;
+    background-color: black;
+}
+@media only screen and (max-width: 600px) {
+    .big-box-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon{
+        height: auto;
+    }
+    .i1{
+        width: 100px;
+    }
+    img{
+        width: 100%;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .footer-text-1, .footer-text-2{
+        width: 100%;
+        font-size: 15px;
+    }
+}
