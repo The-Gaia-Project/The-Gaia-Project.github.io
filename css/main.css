@@ -1,8 +1,8 @@
-div, header, main, footer{
+/* div, header, main, footer{
     border: solid rgb(255, 255, 255);
     margin: 10px;
     padding: 10px;
-}
+} */
 
 body{
     background-color: rgb(80, 80, 80);
